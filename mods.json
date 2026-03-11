@@ -76,5 +76,66 @@
     "tags": [
       "beta"
     ]
+  },
+  {
+    "id": "yuyue1015.balamod-mod-handybalatro",
+    "name": "HandyBalatro",
+    "summary": "Speed-first controls, keybinds, and gameplay QoL tools for vanilla and modded Balatro.",
+    "version": "main",
+    "source": {
+      "platform": "github",
+      "owner": "yuyue1015",
+      "repo": "balamod-mod-HandyBalatro",
+      "ref": "main"
+    },
+    "categories": [
+      "quality-of-life",
+      "ui",
+      "utilities"
+    ],
+    "tags": [
+      "beta",
+      "popular"
+    ]
+  },
+  {
+    "id": "yuyue1015.balamod-mod-sdm-0-s-stuff",
+    "name": "SDM_0's Stuff",
+    "summary": "Large content expansion adding jokers, decks, consumables, vouchers, and challenges.",
+    "version": "main",
+    "source": {
+      "platform": "github",
+      "owner": "yuyue1015",
+      "repo": "balamod-mod-SDM_0-s-Stuff",
+      "ref": "main"
+    },
+    "categories": [
+      "content",
+      "challenges"
+    ],
+    "tags": [
+      "beta",
+      "content-pack"
+    ]
+  },
+  {
+    "id": "yuyue1015.balamod-mod-cartomancer",
+    "name": "Cartomancer",
+    "summary": "Endless-run optimization and interface improvements for heavily modded gameplay.",
+    "version": "main",
+    "source": {
+      "platform": "github",
+      "owner": "yuyue1015",
+      "repo": "balamod-mod-Cartomancer",
+      "ref": "main"
+    },
+    "categories": [
+      "quality-of-life",
+      "ui",
+      "utilities"
+    ],
+    "tags": [
+      "beta"
+    ]
   }
 ]
