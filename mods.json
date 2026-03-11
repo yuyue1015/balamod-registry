@@ -1,0 +1,44 @@
+[
+  {
+    "id": "yuyue1015.base-enhancements",
+    "name": "Base Enhancements",
+    "summary": "Quality-of-life tweaks for core gameplay.",
+    "version": "1.0.0",
+    "source": {
+      "platform": "github",
+      "owner": "yuyue1015",
+      "repo": "balatro-base-enhancements",
+      "ref": "v1.0.0"
+    },
+    "categories": ["gameplay", "quality-of-life"],
+    "tags": ["stable", "recommended"]
+  },
+  {
+    "id": "yuyue1015.deck-tools",
+    "name": "Deck Tools",
+    "summary": "Deck management utilities and overlays.",
+    "version": "0.9.2",
+    "source": {
+      "platform": "github",
+      "owner": "yuyue1015",
+      "repo": "balatro-deck-tools",
+      "ref": "v0.9.2"
+    },
+    "categories": ["ui", "utilities"],
+    "tags": ["beta", "popular"]
+  },
+  {
+    "id": "yuyue1015.challenge-pack-a",
+    "name": "Challenge Pack A",
+    "summary": "Adds a curated set of themed challenges.",
+    "version": "1.1.0",
+    "source": {
+      "platform": "github",
+      "owner": "yuyue1015",
+      "repo": "balatro-challenge-pack-a",
+      "ref": "v1.1.0"
+    },
+    "categories": ["content", "challenges"],
+    "tags": ["stable", "content-pack"]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "starter-pack",
+    "name": "Starter Pack",
+    "description": "Safe defaults for new players.",
+    "mods": [
+      "yuyue1015.base-enhancements",
+      "yuyue1015.deck-tools"
+    ]
+  },
+  {
+    "id": "challenge-pack",
+    "name": "Challenge Pack",
+    "description": "Gameplay plus challenge-focused content.",
+    "mods": [
+      "yuyue1015.base-enhancements",
+      "yuyue1015.challenge-pack-a"
+    ]
+  }
+]

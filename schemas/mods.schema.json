@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://balamod.dev/schemas/mods.schema.json",
+  "title": "Balamod Registry Mods",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "summary",
+      "version",
+      "source",
+      "categories",
+      "tags"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9._-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "summary": {
+        "type": "string",
+        "minLength": 1
+      },
+      "version": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["platform", "owner", "repo", "ref"],
+        "properties": {
+          "platform": {
+            "type": "string",
+            "const": "github"
+          },
+          "owner": {
+            "type": "string",
+            "const": "yuyue1015"
+          },
+          "repo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "categories": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    }
+  }
+}
